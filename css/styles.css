@@ -14,11 +14,53 @@ body {
 }
 
 header {
-
+	margin: 15px auto;
 }
 
-.logo {
-	float: left;
+nav {
+	background-color: #D74710;
+	border-radius: 5px;
+}
+
+nav li {
+	font-weight: bold;
+	padding: 7px;
+	display: inline-block;
+	color: #FFF;
+}
+
+nav li:hover {
+	background-color: #FF9D45;
+	border-radius: 5px;
+}
+
+section h2 {
+	font-size: 150%;
+	font-weight: bold;
+	color: #116189;
+	margin-bottom: 10px;
+}
+
+footer {
+	display: block;
+	border-style: solid;
+	border-top: solid 1px #C0C0C0;
+	margin-top: 20px;
+	font-size: 80%;
+	font-style: italic;
+}
+
+footer p{
+	margin-top: 2px;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: #FFF;
 }
 
 .content-box {
@@ -26,10 +68,18 @@ header {
 	border-style: solid;
 	width: 80%;
 	margin: 0px auto;
-	padding: 15px 20px 15px 20px;
+	padding: 10px;
 	box-shadow: 2px 2px 6px #AAA;
 }
 
+.banner {
+	margin: 0 auto 15px;
+}
+
+.logo {
+	float: left;
+	margin-right: 10px;
+}
 
 .corporate-name {
 	font-family: "Boogaloo", sans-serif;
@@ -40,4 +90,29 @@ header {
 .motto {
 	font-style: italic;
 	font-size: 120%;
+	margin: 10px auto;
+}
+
+.factory-img {
+	float: left;
+	margin: 0px 5px 10px 0px;
+}
+
+.free_shipping-img {
+	float: right;
+	margin: 10px 0px 0px 5px;
+}
+
+.name {
+	color: #116189; 
+	font-weight: bold;
+}
+
+.person {
+	margin-bottom: 30px;
+	display: block; 
+}
+
+.person .photo {
+	float: left;
 }
