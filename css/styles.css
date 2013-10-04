@@ -43,6 +43,7 @@ section h2 {
 
 footer {
 	display: block;
+	clear: right; /* OCD :-) */
 	border-style: solid;
 	border-top: solid 1px #C0C0C0;
 	margin-top: 20px;
@@ -103,6 +104,7 @@ nav a:visited {
 	float: right;
 	margin: 10px 0px 0px 5px;
 }
+
 
 .name {
 	color: #116189; 
