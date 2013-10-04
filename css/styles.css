@@ -59,6 +59,7 @@ a {
 	text-decoration: none;
 }
 
+nav a,
 nav a:visited {
 	color: #FFF;
 }
